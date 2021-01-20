@@ -1,0 +1,241 @@
+[20-Jan-2021 00:01:17 UTC] PHP Warning:  Use of undefined constant Mitch - assumed 'Mitch' (this will throw an Error in a future version of PHP) in C:\Users\mbrunke\Local Sites\university\app\public\experiment.php on line 2
+[20-Jan-2021 00:01:17 UTC] PHP Stack trace:
+[20-Jan-2021 00:01:17 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\experiment.php:0
+[20-Jan-2021 00:01:29 UTC] PHP Warning:  Use of undefined constant Mitch - assumed 'Mitch' (this will throw an Error in a future version of PHP) in C:\Users\mbrunke\Local Sites\university\app\public\experiment.php on line 2
+[20-Jan-2021 00:01:29 UTC] PHP Stack trace:
+[20-Jan-2021 00:01:29 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\experiment.php:0
+[20-Jan-2021 03:32:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:32:24 UTC] PHP Stack trace:
+[20-Jan-2021 03:32:24 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:32:24 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:32:24 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:32:24 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:32:24 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php:3
+[20-Jan-2021 03:32:24 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:32:24 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:32:24 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:32:24 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:32:24 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:32:24 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:32:24 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:32:24 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:32:24 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:32:24 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:32:24 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:32:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:32:44 UTC] PHP Stack trace:
+[20-Jan-2021 03:32:44 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:32:44 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:32:44 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:32:44 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:32:44 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php:3
+[20-Jan-2021 03:32:44 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:32:44 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:32:44 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:32:44 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:32:44 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:32:44 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:32:44 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:32:44 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:32:44 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:32:44 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:32:44 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:33:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:33:31 UTC] PHP Stack trace:
+[20-Jan-2021 03:33:31 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:33:31 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:33:31 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:33:31 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:33:31 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php:3
+[20-Jan-2021 03:33:31 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:33:31 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:33:31 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:33:31 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:33:31 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:33:31 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:33:31 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:33:31 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:33:31 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:33:31 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:33:31 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:33:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:33:59 UTC] PHP Stack trace:
+[20-Jan-2021 03:33:59 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:33:59 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:33:59 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:33:59 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:33:59 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:33:59 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:33:59 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:33:59 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:33:59 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:33:59 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:33:59 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:33:59 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:33:59 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:33:59 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:33:59 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:33:59 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:35:56 UTC] PHP Stack trace:
+[20-Jan-2021 03:35:56 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:35:56 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:35:56 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:35:56 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:35:56 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:35:56 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:35:56 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:35:56 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:35:56 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:35:56 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:35:56 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:56 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:56 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:35:56 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:35:56 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:56 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:35:57 UTC] PHP Stack trace:
+[20-Jan-2021 03:35:57 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:35:57 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:35:57 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:35:57 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:35:57 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:35:57 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:35:57 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:35:57 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:35:57 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:35:57 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:35:57 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:57 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:57 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:35:57 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:35:57 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:57 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:35:57 UTC] PHP Stack trace:
+[20-Jan-2021 03:35:57 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:35:57 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:35:57 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:35:57 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:35:57 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:35:57 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:35:57 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:35:57 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:35:57 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:35:57 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:35:57 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:57 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:57 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:35:57 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:35:57 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:57 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:35:57 UTC] PHP Stack trace:
+[20-Jan-2021 03:35:57 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:35:57 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:35:57 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:35:57 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:35:57 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:35:57 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:35:57 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:35:57 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:35:57 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:35:57 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:35:57 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:57 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:57 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:35:57 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:35:57 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:57 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:35:58 UTC] PHP Stack trace:
+[20-Jan-2021 03:35:58 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:35:58 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:35:58 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:35:58 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:35:58 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:35:58 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:35:58 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:35:58 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:35:58 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:35:58 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:35:58 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:58 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:58 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:35:58 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:35:58 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:58 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:35:58 UTC] PHP Stack trace:
+[20-Jan-2021 03:35:58 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:35:58 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:35:58 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:35:58 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:35:58 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:35:58 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:35:58 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:35:58 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:35:58 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:35:58 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:35:58 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:58 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:35:58 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:35:58 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:35:58 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:35:58 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:36:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:36:00 UTC] PHP Stack trace:
+[20-Jan-2021 03:36:00 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:36:00 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:36:00 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:36:00 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:36:00 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single.php:1
+[20-Jan-2021 03:36:00 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:36:00 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:36:00 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:36:00 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:36:00 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:36:00 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:36:00 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:36:00 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:36:00 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:36:00 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:36:00 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:39:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[20-Jan-2021 03:39:36 UTC] PHP Stack trace:
+[20-Jan-2021 03:39:36 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\index.php:0
+[20-Jan-2021 03:39:36 UTC] PHP   2. require() C:\Users\mbrunke\Local Sites\university\app\public\index.php:17
+[20-Jan-2021 03:39:36 UTC] PHP   3. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php:19
+[20-Jan-2021 03:39:36 UTC] PHP   4. include() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 03:39:36 UTC] PHP   5. get_header() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php:1
+[20-Jan-2021 03:39:36 UTC] PHP   6. locate_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:48
+[20-Jan-2021 03:39:36 UTC] PHP   7. load_template() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:676
+[20-Jan-2021 03:39:36 UTC] PHP   8. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php:730
+[20-Jan-2021 03:39:36 UTC] PHP   9. wp_head() C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+[20-Jan-2021 03:39:36 UTC] PHP  10. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php:3005
+[20-Jan-2021 03:39:36 UTC] PHP  11. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:39:36 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:39:36 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 03:39:36 UTC] PHP  14. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\script-loader.php:2004
+[20-Jan-2021 03:39:36 UTC] PHP  15. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 03:39:36 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 03:49:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wo_footer() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\footer.php:3
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(12): get_footer()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...')
+#7 {mai in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\footer.php on line 3
+[20-Jan-2021 04:40:31 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[20-Jan-2021 04:40:32 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[20-Jan-2021 04:40:45 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[20-Jan-2021 04:40:45 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[20-Jan-2021 04:40:45 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[20-Jan-2021 04:40:45 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[20-Jan-2021 04:40:55 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[20-Jan-2021 04:48:59 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php on line 3
+[20-Jan-2021 05:39:02 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 11
