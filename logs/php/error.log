@@ -239,3 +239,78 @@ Stack trace:
 [20-Jan-2021 04:40:55 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
 [20-Jan-2021 04:48:59 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php on line 3
 [20-Jan-2021 05:39:02 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 11
+[21-Jan-2021 04:09:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 21 and exactly 1 expected in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\post.php:7204
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php(21): wp_get_post_parent_id()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#3 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...')
+#4 {main}
+  thrown in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\post.php on line 7204
+[21-Jan-2021 05:17:12 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 34
+[21-Jan-2021 05:17:16 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 34
+[21-Jan-2021 05:17:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\page.php on line 39
+[21-Jan-2021 05:41:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_atrributes() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:2
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 2
+[21-Jan-2021 05:41:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_atrributes() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:2
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 2
+[21-Jan-2021 05:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_atrributes() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:2
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 2
+[21-Jan-2021 05:41:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_atrributes() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:2
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 2
+[21-Jan-2021 05:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_atrributes() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:2
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 2
+[21-Jan-2021 05:42:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_atrributes() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:2
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...' in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 2
+[21-Jan-2021 05:44:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php:4
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template.php(676): load_template('C:\\Users\\mbrunk...', true, Array)
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...')
+#7 {main in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 4
