@@ -314,3 +314,63 @@ Stack trace:
 #5 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
 #6 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...')
 #7 {main in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\header.php on line 4
+[25-Jan-2021 05:45:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'holmes_csss' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[25-Jan-2021 05:45:08 UTC] PHP Stack trace:
+[25-Jan-2021 05:45:08 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:0
+[25-Jan-2021 05:45:08 UTC] PHP   2. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:603
+[25-Jan-2021 05:45:08 UTC] PHP   3. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\admin-header.php:147
+[25-Jan-2021 05:45:08 UTC] PHP   4. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[25-Jan-2021 05:45:08 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[25-Jan-2021 05:45:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'hello_dolly' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[25-Jan-2021 05:45:08 UTC] PHP Stack trace:
+[25-Jan-2021 05:45:08 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:0
+[25-Jan-2021 05:45:08 UTC] PHP   2. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:603
+[25-Jan-2021 05:45:08 UTC] PHP   3. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\admin-header.php:292
+[25-Jan-2021 05:45:08 UTC] PHP   4. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[25-Jan-2021 05:45:08 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[25-Jan-2021 05:45:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'hello_dolly' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[25-Jan-2021 05:45:28 UTC] PHP Stack trace:
+[25-Jan-2021 05:45:28 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:0
+[25-Jan-2021 05:45:28 UTC] PHP   2. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:603
+[25-Jan-2021 05:45:28 UTC] PHP   3. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\admin-header.php:292
+[25-Jan-2021 05:45:28 UTC] PHP   4. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[25-Jan-2021 05:45:28 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[25-Jan-2021 05:45:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'hello_dolly' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[25-Jan-2021 05:45:37 UTC] PHP Stack trace:
+[25-Jan-2021 05:45:37 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:0
+[25-Jan-2021 05:45:37 UTC] PHP   2. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:603
+[25-Jan-2021 05:45:37 UTC] PHP   3. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\admin-header.php:292
+[25-Jan-2021 05:45:37 UTC] PHP   4. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[25-Jan-2021 05:45:37 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[25-Jan-2021 05:46:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'hello_dolly' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[25-Jan-2021 05:46:42 UTC] PHP Stack trace:
+[25-Jan-2021 05:46:42 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:0
+[25-Jan-2021 05:46:42 UTC] PHP   2. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:603
+[25-Jan-2021 05:46:42 UTC] PHP   3. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\admin-header.php:292
+[25-Jan-2021 05:46:42 UTC] PHP   4. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[25-Jan-2021 05:46:42 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[25-Jan-2021 05:48:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'hello_dolly' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[25-Jan-2021 05:48:32 UTC] PHP Stack trace:
+[25-Jan-2021 05:48:32 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:0
+[25-Jan-2021 05:48:32 UTC] PHP   2. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:603
+[25-Jan-2021 05:48:32 UTC] PHP   3. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\admin-header.php:292
+[25-Jan-2021 05:48:32 UTC] PHP   4. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[25-Jan-2021 05:48:32 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[25-Jan-2021 05:48:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'hello_dolly' not found or invalid function name in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 287
+[25-Jan-2021 05:48:36 UTC] PHP Stack trace:
+[25-Jan-2021 05:48:36 UTC] PHP   1. {main}() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:0
+[25-Jan-2021 05:48:36 UTC] PHP   2. require_once() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\plugins.php:603
+[25-Jan-2021 05:48:36 UTC] PHP   3. do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-admin\admin-header.php:292
+[25-Jan-2021 05:48:36 UTC] PHP   4. WP_Hook->do_action() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\plugin.php:484
+[25-Jan-2021 05:48:36 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\class-wp-hook.php:311
+[28-Jan-2021 00:01:19 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[28-Jan-2021 00:01:22 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[28-Jan-2021 00:01:30 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[28-Jan-2021 00:46:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single.php on line 17 and at least 1 expected in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\post.php:2137
+Stack trace:
+#0 C:\Users\mbrunke\Local Sites\university\app\public\wp-content\themes\fictional-university-theme\single.php(17): get_post_meta()
+#1 C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\mbrunk...')
+#2 C:\Users\mbrunke\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\mbrunk...')
+#3 C:\Users\mbrunke\Local Sites\university\app\public\index.php(17): require('C:\\Users\\mbrunk...')
+#4 {main}
+  thrown in C:\Users\mbrunke\Local Sites\university\app\public\wp-includes\post.php on line 2137
